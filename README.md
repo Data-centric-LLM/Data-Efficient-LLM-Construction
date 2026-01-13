@@ -129,6 +129,7 @@ A comprehensive collection of papers for literature review and research purposes
 - Selective Reflection-Tuning: Student-Selected Data Recycling for LLM Instruction-Tuning (ACL 2024)
 - The Best Instruction-Tuning Data are Those That Fit (arXiv 2025)
 - Data Distillation Can Be Like Vodka: Distilling More Times For Better Quality (ICLR 2024)
+- What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning (ICLR 2024)
 
 ---
 
@@ -144,17 +145,17 @@ A comprehensive collection of papers for literature review and research purposes
 - Rethinking Data Selection for Supervised Fine-Tuning (arXiv 2024)
 - Take the essence and discard the dross: A Rethinking on Data Selection for Fine-Tuning Large Language Models (NAACL 2025)
 - What is in Your Safe Data? Identifying Benign Data that Breaks Safety (COLM 2024)
-- What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning (ICLR 2024)
 - Large-Scale Data Selection for Instruction Tuning (CoRR 2025)
+- LIMIT: Less Is More for Instruction Tuning Across Evaluation Paradigms（ArXiv 2023）
 
 ---
 
 ## 📝 Statistics
 
-- **Total Papers**: 118
-- **Surrogate-Based Methods**: 76 papers
-- **Surrogate-Free Methods**: 32 papers  
-- **Benchmark Studies**: 10 papers
+- **Total Papers**: 116
+- **Surrogate-Based Methods**: 78 papers
+- **Surrogate-Free Methods**: 29 papers  
+- **Benchmark Studies**: 9 papers
 
 ## 🔧 Usage
 
