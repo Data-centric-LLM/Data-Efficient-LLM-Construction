@@ -130,6 +130,7 @@ A comprehensive collection of papers for literature review and research purposes
 - The Best Instruction-Tuning Data are Those That Fit (arXiv 2025)
 - Data Distillation Can Be Like Vodka: Distilling More Times For Better Quality (ICLR 2024)
 - What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning (ICLR 2024)
+- Token-level Data Selection for Safe LLM Fine-tuning （ICLR 2026）
 
 ---
 
