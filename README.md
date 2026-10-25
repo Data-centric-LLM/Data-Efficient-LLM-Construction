@@ -97,18 +97,14 @@ A comprehensive collection of papers for literature review and research purposes
 
 *Methods that do not rely on external models for data selection.*
 
-- Comprehensive Benchmarking of Entropy and Margin Based Scoring Metrics for Data Selection (ENLSP-III workshop at NeurIPS 2023)
 - Improving Influence-based Instruction Tuning Data Selection for Balanced Learning of Diverse Capabilities (ICLR2025)
 - 3DS: Decomposed Difficulty Data Selection's Case Study on LLM Medical Domain Adaptation (arXiv 2024)
 - Beyond Similarity: A Gradient-based Graph Method for Instruction Tuning Data Selection (arXiv 2025)
 - Boosting LLM via Learning from Data Iteratively and Selectively (arXiv 2024)
 - CLUES: Collaborative High-Quality Data Selection for LLMs via Training Dynamics (arXiv 2025)
 - ClusterUCB: Efficient Gradient-Based Data Selection for Targeted Fine-Tuning of LLMs (arXiv 2025)
-- Fine-Tuning Language Models via Epistemic Neural Networks (arXiv 2022)
 - STAR: Constraint LoRA with Dynamic Active Learning for Data-Efficient Fine-Tuning of Large Language Models (ACL 2024)
 - UFO-RL: Uncertainty-Focused Optimization for Efficient Reinforcement Learning Data Selection (arXiv 2025)
-- Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning (arXiv 2025)
-- Reasoning under Uncertainty: Efficient LLM Inference via Unsupervised Confidence Dilution and Convergent Adaptive Sampling 
 - Efficient Data Selection at Scale via Influence Distillation (arXiv 2025)
 - G-DIG: Towards Gradient-based Diverse and High-quality Instruction Data Selection for Machine Translation (ACL 2024)
 - Get more for less: Principled Data Selection for Warming Up Fine-Tuning in LLMs (ICLR 2024)
@@ -128,9 +124,7 @@ A comprehensive collection of papers for literature review and research purposes
 - RICO: Refined In-Context Contribution for Automatic Instruction-Tuning Data Selection (arXiv 2025)
 - Selective Reflection-Tuning: Student-Selected Data Recycling for LLM Instruction-Tuning (ACL 2024)
 - The Best Instruction-Tuning Data are Those That Fit (arXiv 2025)
-- Data Distillation Can Be Like Vodka: Distilling More Times For Better Quality (ICLR 2024)
-- What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning (ICLR 2024)
-- Token-level Data Selection for Safe LLM Fine-tuning （ICLR 2026）
+
 
 ---
 
@@ -153,9 +147,9 @@ A comprehensive collection of papers for literature review and research purposes
 
 ## 📝 Statistics
 
-- **Total Papers**: 116
-- **Surrogate-Based Methods**: 78 papers
-- **Surrogate-Free Methods**: 29 papers  
+- **Total Papers**: 112
+- **Surrogate-Based Methods**: 76 papers
+- **Surrogate-Free Methods**: 27 papers  
 - **Benchmark Studies**: 9 papers
 
 ## 🔧 Usage
