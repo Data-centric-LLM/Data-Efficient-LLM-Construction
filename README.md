@@ -19,8 +19,8 @@ Literature catalog and search-protocol documentation accompanying the survey. Th
 
 | Category | Pre-training | Fine-tuning | Total |
 |:--|--:|--:|--:|
-| Surrogate-based methods | 18 | 58 | **76** |
-| Surrogate-free methods | 1 | 26 | **27** |
+| Surrogate-based methods | 18 | 57 | **75** |
+| Surrogate-free methods | 1 | 27 | **28** |
 | Benchmarks and empirical studies | 0 | 9 | **9** |
 | **Total distinct studies** | **19** | **93** | **112** |
 
@@ -210,7 +210,6 @@ Assign a primary reason to each full-text exclusion, using the following codeboo
 - **[104]** IterSelectTune: An Iterative Training Framework for Efficient Instruction-Tuning Data Selection (arXiv 2024)
 - **[131]** LEAD: Iterative Data Selection for Efficient LLM Instruction Tuning (arXiv 2025)
 - **[105]** Learning in the Wild: Towards Leveraging Unlabeled Data for Effectively Tuning Pre-trained Code Models (ICSE 2024)
-- **[29]** LESS: Selecting Influential Data for Targeted Instruction Tuning (ICML 2024)
 - **[106]** MIG: Automatic Data Selection for Instruction Tuning by Maximizing Information Gain in Semantic Space (arXiv 2025)
 - **[107]** MODS: Model-oriented Data Selection for Instruction Tuning (arXiv 2023)
 - **[108]** Not All Documents Are What You Need for Extracting Instruction Tuning Data (arXiv 2025)
@@ -276,6 +275,7 @@ Assign a primary reason to each full-text exclusion, using the following codeboo
 - **[63]** The Best Instruction-Tuning Data are Those That Fit (arXiv 2025)
 - **[60]** Towards Sustainable Learning: Coresets for Data-efficient Deep Learning (ICML 2023)
 - **[66]** UFO-RL: Uncertainty-Focused Optimization for Efficient Reinforcement Learning Data Selection (arXiv 2025)
+- **[29]** LESS: Selecting Influential Data for Targeted Instruction Tuning (ICML 2024)
 
 ## Benchmark and empirical studies
 
