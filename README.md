@@ -7,7 +7,7 @@ Literature catalog and search-protocol documentation accompanying the survey. Th
 ## Contents
 
 - [Study statistics](#study-statistics)
-- [Literature search protocol (Section IV-B)](#literature-search-protocol-section-iv-b)
+- [Literature search protocol](#literature-search-protocol-section-iv-b)
 - [Database-specific search settings](#database-specific-search-settings)
 - [Screening, exclusion and reviewer agreement](#screening-exclusion-and-reviewer-agreement)
 - [Surrogate-based methods](#surrogate-based-methods)
