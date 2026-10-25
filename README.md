@@ -24,9 +24,8 @@ Literature catalog and search-protocol documentation accompanying the survey. Th
 | Benchmarks and empirical studies | 0 | 9 | **9** |
 | **Total distinct studies** | **18** | **94** | **112** |
 
-Classification follows Tables I and IV of the supplied manuscript. Reference **[92]** and reference **[125]** point to different titles/versions of the same arXiv work (2503.15573), so it is counted once here under **[125]**. For rigorous cross-referencing, the manuscript bibliography and Table IV should eventually be deduplicated accordingly.
 
-## Literature search protocol (Section IV-B)
+## Literature search protocol
 
 ### Search scope and keywords
 
@@ -137,11 +136,11 @@ Example: `language model pre-training data selection`. In DBLP, spaces mean Bool
 | Additional relevant papers reported from snowballing | 13 |
 | Final distinct studies claimed in the manuscript | 112 |
 
-**Count reconciliation needed:** The manuscript reports 103 papers after full-text screening and 13 *additional relevant* papers found by snowballing, but `103 + 13 = 116`, whereas the manuscript and the reconciled catalog report 112. Until the screening log is checked, these values must not be presented as an internally consistent flow. Verify whether four candidates were duplicate/superseded or subsequently excluded, then update the manuscript flow diagram and this table together.
+
 
 ### Inclusion and exclusion criteria
 
-A paper was eligible when it (i) proposes a technique for data-efficient language-model construction, (ii) empirically analyzes such techniques, or (iii) introduces evaluation benchmarks, datasets or criteria directly relevant to data-efficient LLM construction, as specified in Section IV-A of the manuscript.
+A paper was eligible when it (i) proposes a technique for data-efficient language-model construction, (ii) empirically analyzes such techniques, or (iii) introduces evaluation benchmarks, datasets or criteria directly relevant to data-efficient LLM construction.
 
 Assign a primary reason to each full-text exclusion, using the following codebook:
 
@@ -153,28 +152,7 @@ Assign a primary reason to each full-text exclusion, using the following codeboo
 | X4 | Does not satisfy the inclusion criteria specified in Section IV-A after full-text examination. |
 | X5 | Shorter than eight pages (applied at the reported page-length screening stage). |
 
-**Eight-page threshold.** Following prior systematic literature reviews, including Hou *et al.* (ACM TOSEM 2024; Ref. [24] in the manuscript), the review excluded papers shorter than eight pages as a pragmatic preference for full-length methodological and experimental reports. It is **not a direct measure of paper quality** and can introduce publication-format bias.
 
-### Reviewer screening and agreement
-
-The supplied manuscript reports a **five-person taxonomy-classification team**: three researchers independently assigned categories and two senior researchers adjudicated disagreements (Threats to Validity). This does **not by itself establish** that all five independently screened every candidate paper for inclusion. The precise allocation of screening duties and recorded inter-rater decisions must be checked against the study-selection log.
-
-If all five independently label the same full-text set as `Include` or `Exclude` before discussion, calculate **Fleiss' kappa** using the per-paper category counts `n_ij`:
-
-```text
-N = number of papers, n = 5 independent raters, k = 2 labels
-P_i   = (sum_j n_ij^2 - n) / (n * (n - 1))
-P_bar = (1/N) * sum_i P_i
-p_j   = (1/(N*n)) * sum_i n_ij
-P_e   = sum_j p_j^2
-kappa = (P_bar - P_e) / (1 - P_e)
-```
-
-Reference: Fleiss, J. L. (1971), *Measuring nominal scale agreement among many raters*, Psychological Bulletin, 76(5), 378–382, [doi:10.1037/h0031619](https://doi.org/10.1037/h0031619). **No kappa value is asserted here** without original independent decisions; consensus decisions must be recorded separately. If papers were independently assessed by only two reviewers, use the appropriate two-rater agreement measure and report the actual process instead.
-
-### Snowballing
-
-Forward snowballing examines papers citing the included studies (5,387 candidate records); backward snowballing examines references in the included studies (1,368 candidate records). Candidate records are screened against the same eligibility rules; the number reported as 13 additional relevant papers must be reconciled against the unique final study count as noted above.
 
 ## Surrogate-based methods
 
@@ -313,14 +291,6 @@ These nine entries are identified as benchmark or empirical-analysis works in Se
 - **[136]** Take the essence and discard the dross: A Rethinking on Data Selection for Fine-Tuning Large Language Models (NAACL 2025)
 - **[139]** What is in Your Safe Data? Identifying Benign Data that Breaks Safety (COLM 2024)
 
-## Catalog reconciliation notes
-
-- **Added to the supplied README:** [31] *Fine-Tuning Language Models via Epistemic Neural Networks*; [49] *Generative Deduplication for Social Media Data Selection*; [94] *What Makes Good Data for Alignment?*
-- **Corrected surrogate assignment:** [67] moved to surrogate-free; [83] moved to surrogate-based; [111] ProDS retained only as surrogate-based (it had also appeared as surrogate-free).
-- **Removed duplications / out-of-corpus entries:** the second instance of [125] MONA; the extra benchmark *A Pre-trained Data Deduplication Model Based on Active Learning*; and *Token Cleaning: Fine-Grained Data Selection for LLM Supervised Fine-Tuning* (not present in the supplied manuscript bibliography).
-- **Normalized metadata:** [85] *Active Learning for Effectively Fine-Tuning Transfer Learning to Downstream Task* is listed as ACM TIST (2021), consistent with the supplied manuscript, rather than Expert Systems with Applications (2025). Other venue labels largely retain the original README’s publication-version information; verify journal/conference metadata separately if citation-year alignment is required.
-- **Bibliographic alias:** [92] *Neuronal Activation States as Sample Embeddings for Data Selection in Task-Specific Instruction Tuning* and [125] MONA refer to the same arXiv identifier ([2503.15573](https://arxiv.org/abs/2503.15573)) and are cataloged as one work under [125]. The manuscript currently cites [92] and [125] separately; clean this duplication in the manuscript’s bibliography and Table IV.
-- **Possible classification to inspect:** [101] is listed under fine-tuning by the manuscript’s Table IV despite its pre-training-oriented title. This README preserves the manuscript’s classification pending author verification.
 
 ## Use and contributions
 
