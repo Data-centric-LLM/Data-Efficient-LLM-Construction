@@ -19,10 +19,10 @@ Literature catalog and search-protocol documentation accompanying the survey. Th
 
 | Category | Pre-training | Fine-tuning | Total |
 |:--|--:|--:|--:|
-| Surrogate-based methods | 17 | 59 | **76** |
+| Surrogate-based methods | 18 | 58 | **76** |
 | Surrogate-free methods | 1 | 26 | **27** |
 | Benchmarks and empirical studies | 0 | 9 | **9** |
-| **Total distinct studies** | **18** | **94** | **112** |
+| **Total distinct studies** | **19** | **93** | **112** |
 
 
 ## Literature search protocol
