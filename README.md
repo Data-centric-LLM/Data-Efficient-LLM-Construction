@@ -158,7 +158,7 @@ Assign a primary reason to each full-text exclusion, using the following codeboo
 
 **Definition:** Data-selection methods using an auxiliary evaluator distinct from the target model’s active training loop. An auxiliary evaluator may be a separate scoring model, a small model from the same family, or an evaluation checkpoint, according to Section V of the manuscript.
 
-### Pre-training (17 studies)
+### Pre-training (18 studies)
 
 - **[28]** CoLoR-Filter: Conditional Loss Reduction Filtering for Targeted Language Model Pre-training (NeurIPS 2024)
 - **[42]** Combatting Dimensional Collapse in LLM Pre-Training Data via Diversified File Selection (ICLR 2025)
@@ -177,8 +177,9 @@ Assign a primary reason to each full-text exclusion, using the following codeboo
 - **[44]** QuRating: Selecting High-Quality Data for Training Language Models (ICML 2024)
 - **[52]** Rule-based Data Selection for Large Language Models (arXiv 2024)
 - **[40]** ToReMi: Topic-Aware Data Reweighting for Dynamic Pre-Training Data Selection (arXiv 2025)
+- **[101]** Harnessing Diversity for Important Data Selection in Pretraining Large Language Models (arXiv 2024)
 
-### Fine-tuning (59 studies)
+### Fine-tuning (58 studies)
 
 - **[130]** #InsTag: Instruction Tagging for Analyzing Supervised Fine-tuning of Large Language Models (NeurIPS 2023)
 - **[78]** A Bayesian Approach to Data Point Selection (NeurIPS 2024)
@@ -203,7 +204,6 @@ Assign a primary reason to each full-text exclusion, using the following codeboo
 - **[88]** Diversity-driven Data Selection for Language Model Tuning through Sparse Autoencoder (arXiv 2025)
 - **[90]** EDGE: Efficient Data Selection for LLM Agents via Guideline Effectiveness (arXiv 2025)
 - **[100]** Exploring the Mystery of Influential Data for Mathematical Reasoning (COLM 2024)
-- **[101]** Harnessing Diversity for Important Data Selection in Pretraining Large Language Models (arXiv 2024)
 - **[103]** Improving Data Efficiency via Curating LLM-Driven Rating Systems (ICLR 2025)
 - **[102]** InfiAlign: A Scalable and Sample-Efficient Framework for Aligning LLMs to Enhance Reasoning Capabilities (arXiv 2025)
 - **[91]** Instruction Mining: Instruction Data Selection for Tuning Large Language Models (COLM 2024)
