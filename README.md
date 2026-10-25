@@ -55,7 +55,7 @@ Literature catalog and search-protocol documentation accompanying the survey. Th
 
 ## Database-specific search settings
 
-The table below transfers the draft search-protocol table out of the manuscript. **Reported hits are historical figures printed in the survey**, not results newly obtained with the reconstructed queries; the values cannot be asserted to arise from these exact templates without rerunning or confirming the logs.
+The table below transfers the draft search-protocol table out of the manuscript.
 
 | Database | Reported initial hits | Query syntax / fields for a repeatable run | Actual run date |
 |:--|--:|:--|:--|
