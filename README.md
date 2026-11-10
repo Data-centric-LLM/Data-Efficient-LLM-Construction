@@ -2,7 +2,7 @@
 
 Literature catalog and search-protocol documentation accompanying the survey. The paper catalog follows the manuscript’s study classifications and bibliographic numbering; the search protocol is documented separately below to make the methodology auditable.
 
-> **Scope and reporting status.** The catalog below has been reconciled to the **112 distinct studies** described in the supplied manuscript (18 pre-training, 94 fine-tuning). The database retrieval totals are transcribed from the manuscript.
+> **Scope and reporting status.** The catalog below has been reconciled to the **112 distinct studies** described in the supplied manuscript (19 pre-training, 93 fine-tuning). The database retrieval totals are transcribed from the manuscript.
 
 ## Contents
 
