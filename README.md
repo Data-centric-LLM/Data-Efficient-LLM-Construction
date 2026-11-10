@@ -19,8 +19,8 @@ Literature catalog and search-protocol documentation accompanying the survey. Th
 
 | Category | Pre-training | Fine-tuning | Total |
 |:--|--:|--:|--:|
-| Surrogate-based methods | 18 | 57 | **75** |
-| Surrogate-free methods | 1 | 27 | **28** |
+| Surrogate-based methods | 18 | 56 | **74** |
+| Surrogate-free methods | 1 | 28 | **29** |
 | Benchmarks and empirical studies | 0 | 9 | **9** |
 | **Total distinct studies** | **19** | **93** | **112** |
 
@@ -179,7 +179,7 @@ Assign a primary reason to each full-text exclusion, using the following codeboo
 - **[40]** ToReMi: Topic-Aware Data Reweighting for Dynamic Pre-Training Data Selection (arXiv 2025)
 - **[101]** Harnessing Diversity for Important Data Selection in Pretraining Large Language Models (arXiv 2024)
 
-### Fine-tuning (58 studies)
+### Fine-tuning (57 studies)
 
 - **[130]** #InsTag: Instruction Tagging for Analyzing Supervised Fine-tuning of Large Language Models (NeurIPS 2023)
 - **[78]** A Bayesian Approach to Data Point Selection (NeurIPS 2024)
@@ -216,7 +216,6 @@ Assign a primary reason to each full-text exclusion, using the following codeboo
 - **[109]** PASER: Post-Training Data Selection for Efficient Pruned Large Language Model Recovery (ICML 2025)
 - **[110]** Pre-trained Language Model Based Active Learning for Sentence Matching (COLING 2020)
 - **[111]** ProDS: Preference-oriented Data Selection for Instruction Tuning (arXiv 2025)
-- **[80]** QLESS: A Quantized Approach for Data Valuation and Selection in Large Language Model Fine-Tuning (arXiv 2025)
 - **[112]** RAISE: Reinforced Adaptive Instruction Selection For Large Language Models (arXiv 2025)
 - **[113]** Resolving Knowledge Conflicts in Domain-specific Data Selection: A Case Study on Medical Instruction-tuning (arXiv 2025)
 - **[81]** ROSE: A Reward-Oriented Data Selection Framework for LLM Task-Specific Instruction Tuning (EMNLP 2025)
@@ -247,7 +246,7 @@ Assign a primary reason to each full-text exclusion, using the following codeboo
 
 - **[38]** INGENIOUS: Using Informative Data Subsets for Efficient Pre-Training of Language Models (EMNLP 2023)
 
-### Fine-tuning (26 studies)
+### Fine-tuning (27 studies)
 
 - **[68]** 3DS: Decomposed Difficulty Data Selection's Case Study on LLM Medical Domain Adaptation (arXiv 2024)
 - **[54]** Beyond Similarity: A Gradient-based Graph Method for Instruction Tuning Data Selection (arXiv 2025)
@@ -276,6 +275,7 @@ Assign a primary reason to each full-text exclusion, using the following codeboo
 - **[60]** Towards Sustainable Learning: Coresets for Data-efficient Deep Learning (ICML 2023)
 - **[66]** UFO-RL: Uncertainty-Focused Optimization for Efficient Reinforcement Learning Data Selection (arXiv 2025)
 - **[29]** LESS: Selecting Influential Data for Targeted Instruction Tuning (ICML 2024)
+- **[80]** QLESS: A Quantized Approach for Data Valuation and Selection in Large Language Model Fine-Tuning (arXiv 2025)
 
 ## Benchmark and empirical studies
 
