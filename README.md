@@ -246,7 +246,7 @@ Assign a primary reason to each full-text exclusion, using the following codeboo
 
 - **[38]** INGENIOUS: Using Informative Data Subsets for Efficient Pre-Training of Language Models (EMNLP 2023)
 
-### Fine-tuning (27 studies)
+### Fine-tuning (28 studies)
 
 - **[68]** 3DS: Decomposed Difficulty Data Selection's Case Study on LLM Medical Domain Adaptation (arXiv 2024)
 - **[54]** Beyond Similarity: A Gradient-based Graph Method for Instruction Tuning Data Selection (arXiv 2025)
