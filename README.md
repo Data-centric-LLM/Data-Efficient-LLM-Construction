@@ -19,8 +19,8 @@ Literature catalog and search-protocol documentation accompanying the survey. Th
 
 | Category | Pre-training | Fine-tuning | Total |
 |:--|--:|--:|--:|
-| Surrogate-based methods | 18 | 56 | **74** |
-| Surrogate-free methods | 1 | 28 | **29** |
+| Surrogate-based methods | 18 | 57 | **75** |
+| Surrogate-free methods | 1 | 27 | **28** |
 | Benchmarks and empirical studies | 0 | 9 | **9** |
 | **Total distinct studies** | **19** | **93** | **112** |
 
@@ -181,6 +181,7 @@ Assign a primary reason to each full-text exclusion, using the following codeboo
 
 ### Fine-tuning (57 studies)
 
+- **[70]** G-DIG: Towards Gradient-based Diverse and High-quality Instruction Data Selection for Machine Translation (ACL 2024)
 - **[130]** #InsTag: Instruction Tagging for Analyzing Supervised Fine-tuning of Large Language Models (NeurIPS 2023)
 - **[78]** A Bayesian Approach to Data Point Selection (NeurIPS 2024)
 - **[85]** Active Learning for Effectively Fine-Tuning Transfer Learning to Downstream Task (ACM TIST 2021)
@@ -258,7 +259,6 @@ Assign a primary reason to each full-text exclusion, using the following codeboo
 - **[56]** Efficient Data Selection at Scale via Influence Distillation (arXiv 2025)
 - **[31]** Fine-Tuning Language Models via Epistemic Neural Networks (arXiv 2022)
 - **[61]** From Quantity to Quality: Boosting LLM Performance with Self-Guided Data Selection for Instruction Tuning (NAACL 2024)
-- **[70]** G-DIG: Towards Gradient-based Diverse and High-quality Instruction Data Selection for Machine Translation (ACL 2024)
 - **[62]** Get more for less: Principled Data Selection for Warming Up Fine-Tuning in LLMs (ICLR 2024)
 - **[71]** GORACS: Group-level Optimal Transport-guided Coreset Selection for LLM-based Recommender Systems (KDD 2025)
 - **[57]** HyperINF: Unleashing the HyperPower of the Schulz's Method for Data Influence Estimation (CoRR 2024)
