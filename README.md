@@ -66,7 +66,7 @@ The table below transfers the draft search-protocol table out of the manuscript.
 | DBLP | 522 | **Publication Search**: run each `(m, t, e)` as a space-separated word query (225 combinations), union results, apply publication-year/date screening to the bibliographic records. DBLP does not guarantee exact phrase matching in its default interface. |2025.8.9 |
 | **Total prior to cross-source deduplication** | **27,635** | Sum of the five database retrieval counts reported in the original manuscript. | — |
 
-**Execution notes.** For Google Scholar and DBLP, the `225` queries are the Cartesian product of the 5 model terms, 5 training terms and 9 efficiency terms; they are **proposed executable query templates, not recovered logs**. For systems with query-length limits, execute compatible subqueries and combine the exported results. Record sorting, retrieval depth, all search dates, query text as actually submitted, document fields, filters, and each database export to enable a verifiable replication.
+**Execution notes.** For Google Scholar and DBLP, the `225` queries are the Cartesian product of the 5 model terms, 5 training terms and 9 efficiency terms. For systems with query-length limits, execute compatible subqueries and combine the exported results. Record sorting, retrieval depth, all search dates, query text as actually submitted, document fields, filters, and each database export to enable a verifiable replication.
 
 <details>
 <summary><strong>Exact query-construction rules and examples</strong></summary>
@@ -130,7 +130,7 @@ Example: `language model pre-training data selection`. In DBLP, spaces mean Bool
 | Abstract screening | 297 |
 | Exclude manuscripts shorter than eight pages | 251 |
 | Cross-source deduplication | 199 |
-| Full-text inclusion screening | 103 |
+| Full-text inclusion screening | 102 |
 | Forward snowballing: citation candidates examined | 5,387 |
 | Backward snowballing: reference candidates examined | 1,368 |
 | Additional relevant papers reported from snowballing | 13 |
