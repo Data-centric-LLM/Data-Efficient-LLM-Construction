@@ -1,4 +1,4 @@
-# Data-Efficient Large Language Model Training: A Survey
+# Data Selection for Data-Efficient Large Language Model Training: A Survey
 
 Literature catalog and search-protocol documentation accompanying the survey. The paper catalog follows the manuscript’s study classifications and bibliographic numbering; the search protocol is documented separately below to make the methodology auditable.
 
